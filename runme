@@ -1,0 +1,4 @@
+./bin/vault server -config config.json &
+VAULT_ADDR=http://dev01.alex2006hw.com:8200 ./bin/vault status
+VAULT_ADDR=http://dev01.alex2006hw.com:8200 ./bin/vault operator init > vault_init.txt
+

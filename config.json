@@ -1,0 +1,18 @@
+{
+"listener": [{
+"tcp": {
+"address" : "0.0.0.0:8080",
+"tls_disable" : 1
+}
+}],
+"api_addr": "https://goseed.au-syd.mybluemix.net/",
+"storage": {
+    "file": {
+    "path" : "./vault-data"
+    }
+ },
+"max_lease_ttl": "10h",
+"default_lease_ttl": "10h",
+"ui":true,
+"disable_mlock":true
+}
