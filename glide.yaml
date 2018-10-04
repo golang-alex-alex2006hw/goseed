@@ -1,0 +1,9 @@
+package: github.com/golang-alex-alex2006hw/goseed
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/gin-gonic/gin
+- package: github.com/hashicorp/vault
+  subpackages:
+  - command
+- package: github.com/joho/godotenv
+- package: github.com/timjacobi/go-couchdb

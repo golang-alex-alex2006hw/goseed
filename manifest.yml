@@ -1,7 +1,10 @@
 applications:
   - path: .
     name: goseed
-    environment_json: {}
+    command: goseed server -config config.json
+    env:
+      GOPACKAGENAME: goseed
+      GOVERSION: go1.10
     memory: 512M
     instances: 1
     disk_quota: 1024M
