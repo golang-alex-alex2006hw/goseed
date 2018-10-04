@@ -1,0 +1,2 @@
+# goseed
+seed in golang
